@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Post 2*!"
+date:   2015-06-02 20:51:25
+categories: jekyll update
+---
+In on this page I want to reference my previous post, among other things... The old links are below, but the new link I want to post is my [previous post][pp]. Hopefully this works.
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
+[pp]:          {% post_url 2015-05-02-welcome-to-jekyll %}
